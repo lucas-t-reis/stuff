@@ -12,7 +12,7 @@ foo
 
 # Checks the amount of space being consumed by different folders
 du -cha --max-depth=1 / | grep -E "M|G"
-# Investigae candidates further (Supose /var takes alot of Mb Gb)
+# Investigate candidates further (Supose /var takes alot of Mb Gb)
 du -cha --max-depth=1 /var | grep -E "M|G"
 
 
