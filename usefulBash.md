@@ -1,3 +1,4 @@
+```bash
 // Getting string parts
 $ s=/the/path/foo.txt
 $ echo ${s##*/}
@@ -18,3 +19,4 @@ du -cha --max-depth=1 /var | grep -E "M|G"
 // Disable swap memory and gain it's memory in storage back
 sudo swapoff -v /swapfile
 Go to /etc/fstab file and remove /swapfile entry
+```
